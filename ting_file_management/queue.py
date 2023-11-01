@@ -16,3 +16,4 @@ class Queue(AbstractQueue):
 
     def search(self, index):
         """Aqui irá sua implementação"""
+# vqv
