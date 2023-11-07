@@ -2,8 +2,6 @@ from ting_file_management.file_management import txt_importer
 import sys
 
 def process(path_file, instance):
-
-
     for index in range(len(instance)):
         if instance.search(index)["nome_do_arquivo"] == path_file:
             return None
@@ -17,7 +15,6 @@ def process(path_file, instance):
     sys.stdout.write(str(data))
 
 def remove(instance):
-
 
     if len(instance) == 0:
         print("Não há elementos")
