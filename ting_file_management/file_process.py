@@ -26,5 +26,11 @@ def remove(instance):
     sys.stdout.write(f"Arquivo {delete} removido com sucesso\n")
 
 def file_metadata(instance, position):
-    """Aqui irá sua implementação"""
-    
+    try:
+        data = instance.search(position)
+        file = sys.stdout
+        print(data, file)
+
+    except IndexError:
+       index_error = sys.stderr.write("Posição inválida")
+       print(index_error)
