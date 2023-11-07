@@ -12,7 +12,8 @@ def txt_importer(path_file):
 
     with open(path_file, "r") as file:
         data = file.read()
-    return data.splitlines()
+        content = data.splitlines()
+    return content
 # https://pt.stackoverflow.com/questions/2823/como-checar-se-um-arquivo-existe-usando-python
 # https://www.w3schools.com/python/ref_file_read.asp
 # https://pt.stackoverflow.com/questions/2823/como-checar-se-um-arquivo-existe-usando-python
