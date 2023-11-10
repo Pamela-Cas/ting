@@ -17,5 +17,5 @@ def txt_importer(path_file):
 # https://pt.stackoverflow.com/questions/2823/como-checar-se-um-arquivo-existe-usando-python
 # https://www.w3schools.com/python/ref_file_read.asp
 # https://pt.stackoverflow.com/questions/2823/como-checar-se-um-arquivo-existe-usando-python
-# https://www.w3schools.com/python/ref_string_endswith.asp
+# https://www.w3schools.com/python/ref_string_endswith.asphttps://pt.stackoverflow.com/questions/2823/como-checar-se-um-arquivo-existe-usando-python
 # monitoria ana laura

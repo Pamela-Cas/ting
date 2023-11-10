@@ -5,7 +5,8 @@ import sys
 def process(path_file, instance):
     for index in range(len(instance)):
         if instance.search(index)["nome_do_arquivo"] == path_file:
-            return None   
+            return None
+
     file = txt_importer(path_file)
     data = {
             "nome_do_arquivo": path_file,
